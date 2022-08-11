@@ -1,11 +1,11 @@
 ##Disk
 ```
 fdisk /dev/sda
-```
  o
  n
  p
  1
+ 
  
  +400M
  n
