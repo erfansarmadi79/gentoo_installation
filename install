@@ -141,9 +141,9 @@ nano -w /etc/conf.d/hostname
     
 emerge --ask --noreplace net-misc/netifrc
 
-nano -w /etc/conf.d/net
-====>>>>
-config_eth0="dhcp"
+#nano -w /etc/conf.d/net
+#====>>>>
+#config_eth0="dhcp"
 
 ##setpass word Root
 cd /etc/init.d
