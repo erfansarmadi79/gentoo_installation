@@ -36,6 +36,7 @@ echo p
  cd /mnt/gentoo
  ###DownloadSTAGE####
  1. wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20220807T170536Z/stage3-amd64-openrc-20220807T170536Z.tar.xz
+ wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20220814T170533Z/stage3-amd64-desktop-openrc-20220814T170533Z.tar.xz
  or
  2. links https://gentoo.org/downloads    ###select stage3 for download
  
