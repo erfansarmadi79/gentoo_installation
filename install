@@ -83,7 +83,7 @@ en_US.UTF-8 UTF-8
 de_DE ISO-8859-1
 de_DE.UTF-8 UTF-8
 
-==========>>>>>
+==========>>>>>gea
 
 
 locale-gen 
@@ -155,7 +155,7 @@ emerge --ask app-admin/sysklogd
 rc-update add sysklogd default
 
 
-emerge --ask sys-fs/e2fsprogs
+#emerge --ask sys-fs/e2fsprogs
 
 emerge --ask net-misc/dhcpcd
 rc-update add dhcpcd default
