@@ -169,7 +169,8 @@ rc-update add dhcpcd default
 emerge --ask --verbose sys-boot/grub:2
 
 grub-install /dev/sda
- 
+
+grub-install --target=i386-pc /dev/sda 
 grub-mkconfig -o /boot/grub/grub.cfg
 exit
 cd
